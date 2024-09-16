@@ -1,8 +1,8 @@
 # Sales-Forecasting-TSA
 Designing a Time Series forecasting model to assess and predict the pattern of Sales of an online E-commerce website. Involves in-depth data analysis along with exploration and implementation of various important Time Series Analysis (TSA) techniques.
 
-# Models Over view
-## SARIMA
+## Models Over view
+### SARIMA
 
 SARIMA (Seasonal AutoRegressive Integrated Moving Average) extends the ARIMA model by including seasonal components. It is especially useful for time series data that exhibits repeating patterns over fixed periods (such as monthly or yearly seasonality).
 
@@ -20,7 +20,7 @@ where:
 - `P, D, Q` are the seasonal parameters.
 - `m` is the number of time steps in a seasonal period (e.g., 12 for monthly data).
 
-## Prophet
+### Prophet
 
 Prophet, developed by Facebook, is a forecasting tool designed for time series data with daily observations that display seasonality, trend shifts, and holidays. It’s user-friendly, handling missing data and outliers, and it automatically detects change points in the data.
 
@@ -31,7 +31,7 @@ Prophet, developed by Facebook, is a forecasting tool designed for time series d
 
 **Prophet** uses an additive or multiplicative model structure where trends, seasonality, and holiday effects are combined.
 
-# How to run
+## How to run
 
 1. Data : ``` ecommerce.csv ```
 2. Run ```forecasting.ipynb``` for entire workflow from EDA to Model Implementation
