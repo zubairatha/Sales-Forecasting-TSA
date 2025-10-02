@@ -35,3 +35,13 @@ Prophet, developed by Facebook, is a forecasting tool designed for time series d
 
 1. Data : ``` ecommerce.csv ```
 2. Run ```forecasting.ipynb``` for entire workflow from EDA to Model Implementation
+
+## Models at Work 
+
+![Anomaly Detection](https://github.com/zubairatha/Sales-Forecasting-TSA/blob/main/images/anomaly%20detection.png?raw=true)
+![SARIMA Known](https://github.com/zubairatha/Sales-Forecasting-TSA/blob/main/images/sarima%20known.png?raw=true)
+![SARIMA Unknown](https://github.com/zubairatha/Sales-Forecasting-TSA/blob/main/images/sarima%20unknown.png?raw=true)
+![Prophet Known](https://github.com/zubairatha/Sales-Forecasting-TSA/blob/main/images/prophet%20known.png?raw=true)
+![Prophet Unknown](https://github.com/zubairatha/Sales-Forecasting-TSA/blob/main/images/prophet%20unknown.png?raw=true)
+
+
